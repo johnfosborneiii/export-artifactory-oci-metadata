@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "token=$token"
 echo "artifactory_url=$artifactory_url"
 
 output_file=${1:-repositories.txt}
