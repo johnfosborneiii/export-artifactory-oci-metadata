@@ -1,6 +1,8 @@
 #!/bin/bash
 
+echo ""
 echo "artifactory_url=$artifactory_url"
+echo ""
 
 output_file=${1:-repositories.txt}
 
