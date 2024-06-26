@@ -16,13 +16,13 @@ cd export-jfrog-images
 
 ### Generate repo list to query
 
-#### Edit the fetch-oci-and-docker-repos.sh file with your API Token and Artifactory URL
+#### Export your API Token and Artifactory URL
 ```bash
-token="YOUR_AUTH_TOKEN_HERE"
-artifactory_url="https://foo.jfrog.io/artifactory"
+export token="YOUR_AUTH_TOKEN_HERE"
+export artifactory_url="https://foo.jfrog.io/artifactory"
 ```
 
-#### Save the file and give the script execute permissions and then run it
+#### Give the script execute permissions and then run it
 ```bash
 chmod +x fetch-oci-and-docker-repos.sh
 ./fetch_repositories.sh repositories.txt
@@ -31,11 +31,6 @@ chmod +x fetch-oci-and-docker-repos.sh
 
 ### Generate CSV
 
-#### Edit the generate-repo-csv.sh file with your API Token and Artifactory URL
-```bash
-token="YOUR_AUTH_TOKEN_HERE"
-artifactory_url="https://foo.jfrog.io/artifactory"
-```
 #### Save the file and give the script execute permissions and then run it
 ```bash
 chmod +x generate-repo-csv.sh
