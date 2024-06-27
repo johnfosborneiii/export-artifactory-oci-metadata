@@ -22,7 +22,7 @@ export token="YOUR_AUTH_TOKEN_HERE"
 export artifactory_url="https://foo.jfrog.io/artifactory"
 ```
 
-#### Give the script execute permissions and then run it
+#### Give the fetch-oci-and-docker-repos script execute permissions and then run it
 ```bash
 chmod +x fetch-oci-and-docker-repos.sh
 ./fetch_repositories.sh repositories.txt
@@ -31,7 +31,7 @@ chmod +x fetch-oci-and-docker-repos.sh
 
 ### Generate CSV
 
-#### Save the file and give the script execute permissions and then run it
+#### Give the generate-repo-csv script execute permissions and then run it
 ```bash
 chmod +x generate-repo-csv.sh
 ./generate-repo-csv.sh
