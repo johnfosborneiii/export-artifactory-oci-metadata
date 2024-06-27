@@ -1,6 +1,6 @@
 # Artifactory Repository Metadata Retrieval
 
-This repository contains scripts to export Docker/OCI image metadata from JFrog Artifactory
+This repository contains scripts to export Docker/OCI image metadata from JFrog Artifactory as CSV
 
 ## Prerequisites
 
